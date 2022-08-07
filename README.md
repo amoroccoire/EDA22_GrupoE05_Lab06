@@ -99,7 +99,26 @@
           <ul>
      	     <li>Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a paso. (3 puntos)
                  <ul>
-		    <li>RESPUESTA...</li>
+		    <li>En esta primera imagen tenemos como esta distribuido el árbol antes de que se inserte el nuevo nodo.
+			<img src="/pregunta_5/img/imagen1.jpg" width="500" height="400">
+	            </li>
+		    <li>Una vez insertado el nodo con clave www.youtube.com se movera hacia el hijo derecho de la raiz para luego 
+			moverse a la ultima clave, aquí nuevamente bajara al hijo derecho de la ultima clave y se desplazara a la 
+			ultima posición.
+			<img src="/pregunta_5/img/imagen2.jpg" width="500" height="400">
+	            </li> 
+		    <li>Como el maximo de claves que puede haber es 3 (M-1) entonces se divide entre 2 y en este caso el nodo que 
+			sube es www.yahoo.com despues www.weather.com pasar a ser un nodo solitario y los nodos www.yales.com y 
+			www.youtube.com pasar a ser hijos derechos de www.yahoo.com. 
+			Pero ahora el hijo derecho de www.csprinceton.edu tienes 4 claves.
+			<img src="/pregunta_5/img/imagen3.jpg" width="500" height="400">
+	            </li>
+		    <li>Nuevamente se vuelve a dividir y en este caso www.princeton.com  es el que sube a la raiz y www.google.com pasar 
+			a ser un nodo unico cuyos hijos izquierdo y derecho mantiene,  tanto www.slashdot.com y www.yahoo.com mantienen 
+			sus hijos izquierdos y derechos.
+			Asi finalmente se ha insertado www.youtube.com. 
+			<img src="/pregunta_5/img/imagen4.jpg" width="500" height="400">
+	            </li>
 		</ul> 
              </li>
 	  </ul>
