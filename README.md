@@ -18,19 +18,16 @@
     </tbody>
 </table>
 </div>
-
 <div align="center">
 <span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
 </div>
-
-
 <table>
 <theader>
 <tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5" ÁRBOL B</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5"ÁRBOL B</td></tr>
 <tr>
 <td>NÚMERO DE PRÁCTICA:</td><td>06</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
