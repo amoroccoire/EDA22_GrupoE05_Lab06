@@ -90,7 +90,26 @@
           <ul>
      	     <li>Mostrar paso a paso el arbol-B al eliminar " www.espn.com" (4 puntos)
                 <ul>
-		    <li>RESPUESTA...</li>
+		    <li> En la primera parte vemos como tenemos distribuido los elementos del árbol B que tenemos, en la cual se observa
+		    en la siguiente imagen:<br>
+		    <img src="/Pregunta_4/img/imagen_1.png" width="550" height="300">
+		    </li>
+		    <li> Luego el elemento que se introduce se le compara con la raíz principal para luego indicar si se elimina el elemento
+		    o que camino recorre para seguir buscando al elemento.<br>
+		     <img src="/Pregunta_4/img/imagen_2.png" width="550" height="300">
+		     </li>
+		    <li> Al ver que el valor es mayor que la raíz, se busca por el lado derecho donde se busca en el valores del nodo, 
+		    si esta ahí el elemento que deseamos eliminar.<br>
+		     <img src="/Pregunta_4/img/imagen_3.png" width="550" height="300">
+		     </li>
+		     <li> Al no encontrar el elemento bajamos por el primer valor del nodo, ya que el valor que buscamos es menor y al llegar 
+		     al siguiente nodo buscamos y se encuentra el valor solicitado.<br> 
+		      <img src="/Pregunta_4/img/imagen_4.png" width="550" height="300">
+		     </li>
+		     <li> Al encontrar el valor se elimnina y en este caso no se hace una redistribución o Fusión de nodos, puesto que el no 
+		     es menor a la mitad del grado mínimo.<br>
+		      <img src="/Pregunta_5/img/imagen_2.png" width="550" height="300">
+		     </li>
 		</ul> 
              </li>
 	  </ul>
