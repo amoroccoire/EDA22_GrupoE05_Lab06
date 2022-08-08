@@ -63,7 +63,8 @@
           <ul>
      	     <li> Modificar el método de obtención de valor dado una clave (5 puntos)
 		<ul>
-		    <li>RESPUESTA...</li>
+		    <li>En la siguiente imagen se muestra el arbol B final que se genera a partir de las insercciones anteriores.</li>
+		     <img src="https://ibb.co/txSrMHx" width="700" height="300">
 		</ul>             
 	     </li>
 	  </ul>
