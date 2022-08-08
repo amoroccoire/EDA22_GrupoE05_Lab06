@@ -112,7 +112,6 @@
                 	s.append(indent + "(" + children[j].key + ")\n");
                 s.append(toString(children[j].next, ht-1, indent + "     "));
             }</li>
-		    
 		</ul> 
              </li>
 	  </ul>
