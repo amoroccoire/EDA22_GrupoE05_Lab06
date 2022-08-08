@@ -36,11 +36,14 @@ public class Ejercicio1 {
                 tabla.get(direccion).add(ip);
             }
         }
-        //test1
+        /*test1
         System.out.println("www.cs.princeton.edu" + " : " + tabla.get("www.cs.princeton.edu"));
         System.out.println("www.amazon.com" + " : " + tabla.get("www.amazon.com"));
         System.out.println("www.ebay.com" + " : " + tabla.get("www.ebay.com"));
-        System.out.println("www.google.com" + " : " + tabla.get("www.cnn.com"));
-        
+        System.out.println("www.google.com" + " : " + tabla.get("www.cnn.com"));*/
+
+        //test2
+        for (String key : tabla.keySet())
+            System.out.println(key + " : " + tabla.get(key));
     }
 }
