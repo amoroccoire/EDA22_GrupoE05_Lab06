@@ -165,6 +165,9 @@
 	</td></tr>
         <tr><td colspan="6"> CONCLUSIONES
            <li>El árbol B nos sirve para almacenar grandes cantidades de datos que no caben en la memoria principal, mientras minimiza la cantidad de accesos al disco</li>
+		<li>
+		Los arboles balanceados son una buena solución para implementar el manejo de índices asoaciados a archivos de datos.
+		</li>
 	</td></tr>
  </tbody>
 </table>
