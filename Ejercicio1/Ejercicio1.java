@@ -29,12 +29,9 @@ public class Ejercicio1 {
             String direccion = sitiosWeb.get(2*i);
             String ip = sitiosWeb.get(2*i + 1);
 
-            if (tabla.containsKey(direccion))
-                tabla.get(direccion).add(ip);
-            else {
+            if (!tabla.containsKey(direccion))
                 tabla.put(direccion, new ArrayList<String>());
-                tabla.get(direccion).add(ip);
-            }
+            tabla.get(direccion).add(ip);
         }
         /*test1
         System.out.println("www.cs.princeton.edu" + " : " + tabla.get("www.cs.princeton.edu"));
