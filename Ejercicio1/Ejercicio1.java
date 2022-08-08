@@ -23,14 +23,11 @@ public class Ejercicio1 {
 				"www.weather.com", "63.111.66.11"));
 
         HashMap<String, ArrayList<String>> tabla = new HashMap<String, ArrayList<String>>();
+        int iteraciones = sitiosWeb.size()/2;
 
-        
-            System.out.print("Sitio Web");
-            String direccion = sc.next();
-            if (direccion.equals("0"))
-                break;
-            System.out.print("IP: ");
-            String ip = sc.next();
+        for (int i = 0; i < iteraciones; i++) {
+            String direccion = sitiosWeb.get(2*i);
+            String ip = sitiosWeb.get(2*i + 1);
 
             if (tabla.containsKey(direccion))
                 tabla.get(direccion).add(ip);
@@ -38,6 +35,6 @@ public class Ejercicio1 {
                 tabla.put(direccion, new ArrayList<String>());
                 tabla.get(direccion).add(ip);
             }
-        
+        }
     }
 }
