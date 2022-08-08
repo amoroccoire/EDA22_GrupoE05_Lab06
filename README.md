@@ -39,7 +39,7 @@
             <li><h5>Escobar/Atamari, Diego Gabriel - descobara@unsa.edu.pe</h5></li>
             <li><h5>Flores/Sucupaca, Ervin Eleazar - efloressuc@unsa.edu.pe</h5></li>
             <li><h5>Machicao/Quispe, Gabriel Steven - gmachicaoq@unsa.edu.pe</h5></li>
-            <li><h5>Moroccoire/Pacompia Anthony Marcos - amoroccoire@unsa.edu.pe</h5></li>
+            <li><h5>Moroccoire/Pacompia, Anthony Marcos - amoroccoire@unsa.edu.pe</h5></li>
             <li><h5>Quispe/Bejar, Garlet Analy - gquispeb@unsa.edu.pe</h5></li>
         </ul>
     </td>
