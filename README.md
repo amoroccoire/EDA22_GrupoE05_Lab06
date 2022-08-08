@@ -85,7 +85,7 @@
 				</ul>
 			Estre test se mostrara al ejecutar el ejercicio
 			</p>
-			<p>Para ejecutar el código escriba los siguientes comandos:<br><code>javac Ejercicio.java</code><br><code>java Ejercicio1</code></p>
+			<p>Para ejecutar el código escriba los siguientes comandos:<br><code>javac Ejercicio1.java</code><br><code>java Ejercicio1</code></p>
 		    </li>
 		</ul>             
 	     </li>
