@@ -15,6 +15,13 @@ public class Ejercicio1 {
                 break;
             System.out.print("IP: ");
             String ip = sc.next();
+
+            if (tabla.containsKey(direccion))
+                tabla.get(direccion).add(ip);
+            else {
+                tabla.put(direccion, new ArrayList<String>());
+                tabla.get(direccion).add(ip);
+            }
         }
     }
 }
