@@ -66,7 +66,7 @@
 		    <li>
 		    	RESPUESTA
 			<p>En escencia se ha usado un HashMap cuya clave (key) es el sitio web y su valor es un ArrayList de String en donde se almacenaran los ip en caso de que coincida la direccion web asi como no, la siguiente imagen ilustra la intención: </p>
-			<img src="Ejercicio1/Iamges/captura3.png">
+			<img src="Ejercicio1/Images/captura3.png">
 			<p>Para conseguir dicho objetivo, se ha inicializado un ArrayList de la siguiente manera:<br><code>ArrayList<String> sitiosWeb = new ArrayList<>(List.of(""www.cs.princeton.edu", "128.112.136.12", ...));</code> <br> La estructura que sigue es (Direccion web, IP)<br> Posterior a ello se crea un diccionario con los tipos de valor (String, ArrayList<String>) </p>
 			<p>Para llenar el diccionario se usa un ciclo for y las iteraciones que debe hacer es n/2 donde n es el tamaño de la lista inicializada, para conocer la posicion del nombre de l apgina web el iterador (en codigo representado como "i") debe ser incializado en 0 y sigue el patron (2*i) y para conocer su IP es (2*i + 1), luego de obtener los valores respectivos son asignados a las variables de tipo String "dirección" e "ip"</p>
 			<p>
