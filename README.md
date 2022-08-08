@@ -138,7 +138,7 @@
 		     </li>
 		     <li> Al encontrar el valor se elimnina y en este caso no se hace una redistribución o Fusión de nodos, puesto que el no 
 		     es menor a la mitad del grado mínimo.<br>
-		      <img src="/Pregunta_4/img/imagen_2.png" width="550" height="300">
+		      <img src="/Pregunta_4/img/imagen_5.png" width="550" height="300">
 		     </li>
 		</ul> 
              </li>
