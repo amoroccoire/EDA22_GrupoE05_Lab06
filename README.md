@@ -72,8 +72,8 @@
           <ul>
      	     <li> Mostrar en un diagrama de árbol gráficamente la estructura final para los datos ingresados. (4 puntos)
              <ul>
-		  <li>En la siguiente imagen se muestra el arbol B final que se genera a partir de las insercciones anteriores.</li>
-		  <img src="https://i.ibb.co/txSrMHx/BTree.png" alt="BTree" border="0" width="700" height="300">
+		  <li>En la siguiente imagen se muestra el arbol B final que se genera a partir de las insercciones anteriores https://ibb.co/txSrMHx.</li>
+		  <img src="https://i.ibb.co/cCPncyC/BTree.png" width="1917" height="430">
 		</ul> 
 	     </li>
 	  </ul>
