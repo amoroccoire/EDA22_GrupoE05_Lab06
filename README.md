@@ -103,7 +103,7 @@
 			<img src="/pregunta_5/img/imagen1.jpg" width="550" height="300">
 	            </li>
 		    <li>Una vez insertado el nodo con clave www.youtube.com se movera hacia el hijo derecho de la raíz para luego 
-			moverse a la última clave, aquí nuevamente bajara al hijo derecho de la última clave y se moverá a la última posición.
+			moverse a la última clave, aquí nuevamente bajara al hijo derecho de la última clave y se moverá a la última posición.<br>
 		        <img src="/pregunta_5/img/imagen2.jpg" width="550" height="300">
 	            </li> 
 		    <li>Como el máximo de claves que puede haber es 3 (M-1) entonces se divide entre 2 y en este caso el nodo que 
