@@ -36,11 +36,11 @@
 </tr>
 <tr><td colspan="4">Integrantes:
         <ul>
-            <li><h5>Escobar Atamari, Diego Gabriel</h5></li>
-            <li><h5>Flores Sucupaca, Ervin Eleazar </h5></li>
-            <li><h5>Machicao Quispe, Gabriel Steven</h5></li>
-            <li><h5>Moroccoire Pacompia Anthony Marcos</h5></li>
-            <li><h5>Quispe Bejar, Garlet Analy</h5></li>
+            <li><h5>Escobar/Atamari, Diego Gabriel - descobara@unsa.edu.pe</h5></li>
+            <li><h5>Flores/Sucupaca, Ervin Eleazar - efloressuc@unsa.edu.pe</h5></li>
+            <li><h5>Machicao/Quispe, Gabriel Steven - gmachicaoq@unsa.edu.pe</h5></li>
+            <li><h5>Moroccoire/Pacompia Anthony Marcos - amoroccoire@unsa.edu.pe</h5></li>
+            <li><h5>Quispe/Bejar, Garlet Analy - gquispeb@unsa.edu.pe</h5></li>
         </ul>
     </td>
     <td colspan="2">Nota:</td>
@@ -63,7 +63,28 @@
           <ul>
      	     <li> Modificar el método de obtención de valor dado una clave (5 puntos)
 		<ul>
-		    <li>RESPUESTA</li>
+		    <li>
+		    	RESPUESTA
+			<p>En escencia se ha usado un HashMap cuya clave (key) es el sitio web y su valor es un ArrayList de String en donde se almacenaran los ip en caso de que coincida la direccion web asi como no, la siguiente imagen ilustra la intención: </p>
+			<img src="Ejercicio1/Iamges/captura3.png">
+			<p>Para conseguir dicho objetivo, se ha inicializado un ArrayList de la siguiente manera:<br><code>ArrayList<String> sitiosWeb = new ArrayList<>(List.of(""www.cs.princeton.edu", "128.112.136.12", ...));</code> <br> La estructura que sigue es (<Direccion web>, <IP>)<br> Posterior a ello se crea un diccionario con los tipos de valor <String, ArrayList<String>> </p>
+			<p>Para llenar el diccionario se usa un ciclo for y las iteraciones que debe hacer es n/2 donde n es el tamaño de la lista inicializada, para conocer la posicion del nombre de l apgina web el iterador (en codigo representado como "i") debe ser incializado en 0 y sigue el patron (2*i) y para conocer su IP es (2*i + 1), luego de obtener los valores respectivos son asignados a las variables de tipo String "dirección" e "ip"</p>
+			<p>
+			Se verifica que la clave (direccion web) no exista en el diccionario con el bloque if a través del metodo de la clase HashMap <code>containsKey(key)</code> si es verdadero, se procede agregar un nuevo elemento al diccionario cuya clave es la direccion web y su valor un arrayList vacio creado con la palabra reservada <code>new</code>. El paso 2 se da fuera del bloque if en el que se accede al valor de dicha clave con el metodo <code>get(key)</code> de la clase HashMap esto retornara un arrayList al que se le añadira la ip proporcionada con el método <code>add(value)</code> de la clase ArrayList. Si el bloque if resulta falso significa que ya existe la clave por lo tanto solo ignora el dicho bloque y pasa al paso 2
+			</p>
+			<p>
+			Para probar el código se han hecho 2 test:<br>Test 1
+				<ul>
+					<li>El test consiste en mostrar 4 direcciones web y sus respectivos ip<br><img src="Ejercicio1/Images/captura1.png"></li><br>El test ha sido comentado en el codigo para poder pasar al segundo test
+				</ul>
+			</p>
+			<p>
+			Test 2
+				<ul>
+					<li>Consiste en mostrar todas las direcciones web de la lista de incializacion con sus respectivos ip <br><img src="Ejercicio1/Images/captura2.png"></li>
+				</ul>
+			</p>
+		    </li>
 		</ul>             
 	     </li>
 	  </ul>
