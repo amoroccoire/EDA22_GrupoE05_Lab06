@@ -36,5 +36,7 @@ public class Ejercicio1 {
                 tabla.get(direccion).add(ip);
             }
         }
+        //test1
+        System.out.println("www.cs.princeton.edu" + " " + tabla.get("www.cs.princeton.edu"));
     }
 }
