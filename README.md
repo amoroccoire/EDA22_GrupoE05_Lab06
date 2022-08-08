@@ -37,7 +37,7 @@
 <tr><td colspan="4">Integrantes:
         <ul>
             <li><h5>Escobar/Atamari, Diego Gabriel - descobara@unsa.edu.pe</h5></li>
-            <li><h5>Flores/Sucupaca, Ervin Eleazar - efloressuc@unsa.edu.pe</h5></li>
+            <li><h5>Flores/Sucapuca, Ervin Eleazar - efloressuc@unsa.edu.pe</h5></li>
             <li><h5>Machicao/Quispe, Gabriel Steven - gmachicaoq@unsa.edu.pe</h5></li>
             <li><h5>Moroccoire/Pacompia, Anthony Marcos - amoroccoire@unsa.edu.pe</h5></li>
             <li><h5>Quispe/Bejar, Garlet Analy - gquispeb@unsa.edu.pe</h5></li>
@@ -105,7 +105,14 @@
           <ul>
      	     <li>El método toString() del árbol, retorna lo siguiente. ¿Por qué están entre paréntesis ciertas claves? (4 puntos)
                 <ul>
-		    <li>RESPUESTA...</li>
+		    <li>Es por que es una raíz.</li>
+		    <li>else {
+            for (int j = 0; j < h.m; j++) {
+                if (j > 0) 
+                	s.append(indent + "(" + children[j].key + ")\n");
+                s.append(toString(children[j].next, ht-1, indent + "     "));
+            }</li>
+		    
 		</ul> 
              </li>
 	  </ul>
@@ -132,7 +139,7 @@
 		     </li>
 		     <li> Al encontrar el valor se elimnina y en este caso no se hace una redistribución o Fusión de nodos, puesto que el no 
 		     es menor a la mitad del grado mínimo.<br>
-		      <img src="/Pregunta_4/img/imagen_5.png" width="550" height="300">
+		      <img src="/Pregunta_5/img/imagen_2.png" width="550" height="300">
 		     </li>
 		</ul> 
              </li>
