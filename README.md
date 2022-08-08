@@ -83,7 +83,9 @@
 				<ul>
 					<li>Consiste en mostrar todas las direcciones web de la lista de incializacion con sus respectivos ip <br><img src="Ejercicio1/Images/captura2.png"></li>
 				</ul>
+			Estre test se mostrara al ejecutar el ejercicio
 			</p>
+			<p>Para ejecutar el código escriba los siguientes comandos:<br><code>javac Ejercicio.java</code><br><code>java Ejercicio1</code></p>
 		    </li>
 		</ul>             
 	     </li>
