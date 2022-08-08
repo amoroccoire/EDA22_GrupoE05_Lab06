@@ -3,10 +3,11 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Ejercicio1 {
-    public static void main(String arga[]){
+    public static void main(String args[]) {
         
         Scanner sc = new Scanner(System.in);
         HashMap<String, ArrayList<String>> tabla = new HashMap<String, ArrayList<String>>();
+
         System.out.println("Para salir escriba: 0");
         While(true) {
             System.out.print("Sitio Web");
@@ -23,5 +24,7 @@ public class Ejercicio1 {
                 tabla.get(direccion).add(ip);
             }
         }
+
+        System.out.println(tabla);
     }
 }
